@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'American Typewriter';
+   src: url(/font/ATR.ttf) format('truetype');
+   font-style: normal;
+}
+
+.navigation {
+   border: 1px solid black;
+}
+
+.subtitle {
+    width: 11em;
+    display: inline-block;
+    position: relative;
+}
+ 
+.subtitle::before {
+     content: "";
+     position: absolute;
+     width: 88%;
+     height: 40%;
+     top: 2.4em;
+     left: .5em;
+     background: rgba(255, 202, 246, 0.75);
+     z-index: -1;
+}
+
+.mbpurple  {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 24pt;
+    letter-spacing: .1em;
+    text-decoration: none;
+    padding: 1.2em .3em;
+    display: inline-block;
+    width: 100%;
+    text-align: center; 
+}
+ 
+.mbpurple:hover {
+    background: rgba(146, 144, 255, 0.75);
+   
+}
+
+.mbblue  {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 24pt;
+    letter-spacing: .1em;
+    text-decoration: none;
+    padding: 1.2em .3em;
+    display: inline-block;
+    width: 100%;
+    text-align: center;  
+}
+ 
+.mbblue:hover {
+    background: rgba(144, 216, 255, 0.75);
+}
+
+.mbgreen  {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 24pt;
+    letter-spacing: .1em;
+    text-decoration: none;
+    padding: 1.2em .3em;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+ 
+.mbgreen:hover {
+    background: rgba(144, 255, 150, 0.75);
+}
+
+.mbyellow  {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 24pt;
+    letter-spacing: .1em;
+    text-decoration: none;
+    padding: 1.2em .3em;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+ 
+.mbyellow:hover {
+    background: rgba(255, 244, 144, 0.75);
+}
+
+
+.mborange  {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 24pt;
+    letter-spacing: .1em;
+    text-decoration: none;
+    padding: 1.2em .3em;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+}
+ 
+.mborange:hover {
+    background: rgba(255, 203, 144, 0.75);
+}
+
+.main {
+   max-width: 3840px;
+   margin: 0 auto;
+}
+
+.navigation ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navigation li {
+   flex: 1;    
+}
+
+.navigation .user {
+   flex: 1;
+}
+
+@media all and (max-width: 1080px) {
+   .navigation li {
+      flex-basis: 100%;
+   }
+
+   .navigation .user {
+      flex-basis: 50%;
+   }
+}
+
+body { 
+    font-family: 'American Typewriter';
+   src: url(/font/ATR.ttf) format('truetype');
+   font-style: normal;
+}
+
+h1 {
+    margin: 1em;
+    margin-left: 15px;
+    font-size: 36pt;
+    font-style: inherit;
+}
+
+h2 {
+   margin: 0.5;
+   margin-left: 15px;
+   font-size: 24pt;
+   font-style: inherit;
+}
+
+.description {
+    margin: 0.5;
+    margin-left: 15px;
+    font-size: 15pt;
+}
+
+h3 {
+   margin: 0.5;
+   margin-left: 15px;
+   font-size: 18pt;
+   font-style: inherit;
+}
+
+.flowers {
+font-size: 16pt;
+}
+
+.painting-title {
+   font-size: 24pt;
+   font-style: bold;
+   margin-left: 1em;
+}
+
+.painting-subtitle {
+   font-size: 24pt;
+   font-style: bold;
+   margin-left: 1em;
+}
+
+.painting-description {
+   font-size: 16pt;
+   margin-left: 1.5em;
+}
+
+
+.spacer-small {
+   height: 1vh;
+}
+
+.edithtitle {
+   width: 24em;
+   display: inline-block;
+   position: relative;
+}
+
+.edithtitle::before {
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 40%;
+    top: 4em;
+    left: .5em;
+    background: rgba(255, 144, 144, 0.801);
+    z-index: -1;  
+}
+
+.flowerstitle {
+    width: 28em;
+    display: inline-block;
+    position: relative;
+}
+ 
+.flowerstitle::before {
+     content: "";
+     position: absolute;
+     width: 83%;
+     height: 28%;
+     top: 4em;
+     left: 1.2em;
+     background: rgba(255, 144, 144, 0.801);
+     z-index: -1;
+     box-shadow: 5px 10px 8px #888888;
+}
+
+.expressionstitle {
+    width: 24em;
+    display: inline-block;
+    position: relative;
+}
+ 
+.expressionstitle::before {
+     content: "";
+     position: absolute;
+     width: 79%;
+     height: 40%;
+     top: 4em;
+     left: .5em;
+     background: rgba(255, 144, 144, 0.801);
+     z-index: -1;
+}
+
+.herworksubtitle {
+    width: 11em;
+    display: inline-block;
+    position: relative;
+}
+ 
+.herworksubtitle::before {
+     content: "";
+     position: absolute;
+     width: 88%;
+     height: 40%;
+     top: 2.4em;
+     left: .5em;
+     background: rgba(255, 202, 246, 0.75);
+     z-index: -1;
+}
+
+img{
+max-width:100%;
+max-height:100%;
+}
+
+.columndiv {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+   .column {
+     flex: 50%;
+     max-width: 50%;
+   }
+}
+ 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     flex: 100%;
+     max-width: 100%;
+   }
+}
+
+.row {
+   display: grid;
+   grid-template-columns: repeat(15, 1fr);
+   grid-auto-rows: 30em;
+   grid-auto-columns: 30em;
+   margin-left: 1em;
+   grid-auto-flow: row;
+
+}
+
+.row1 {
+   grid-column-start: 1;
+   grid-column-end: 5;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   padding-right: 2rem;
+   padding-left: 2rem;
+}
+
+.row2 {
+   grid-column-start: 5;
+   grid-column-end: 8;
+   border: 1px solid black;
+   margin-right: 1em;
+}
+
+.row3 {
+   grid-column-start: 9;
+   grid-column-end: 13;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   grid-row-start: 1;
+   grid-row-end: 4;
+}
+
+.row4 {
+   grid-column-start: 13;
+   grid-column-end: 16;
+   margin-right: 3em;
+   border: 1px solid black;
+}
